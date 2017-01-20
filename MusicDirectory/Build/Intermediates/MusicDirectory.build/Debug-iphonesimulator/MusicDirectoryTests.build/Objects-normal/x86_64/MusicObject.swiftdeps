@@ -1,0 +1,173 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MusicObject"
+provides-nominal:
+- "C19MusicDirectoryTests11MusicObject"
+provides-member:
+- ["C19MusicDirectoryTests11MusicObject", ""]
+provides-dynamic-lookup:
+- "artImageURL"
+- "lyricsString"
+- "trackName"
+- "albumName"
+- "artistName"
+depends-top-level:
+- "String"
+- "NSObject"
+- "AssignmentPrecedence"
+- "MusicObject"
+- !private "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "albumName"]
+- ["Ps9AnyObject", "artImageURL"]
+- ["Ps9AnyObject", "artistName"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "lyricsString"]
+- ["Ps9AnyObject", "trackName"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "albumName"]
+- ["Ps7CVarArg", "artImageURL"]
+- ["Ps7CVarArg", "artistName"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "lyricsString"]
+- ["Ps7CVarArg", "trackName"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "albumName"]
+- ["Ps28CustomDebugStringConvertible", "artImageURL"]
+- ["Ps28CustomDebugStringConvertible", "artistName"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "lyricsString"]
+- ["Ps28CustomDebugStringConvertible", "trackName"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "albumName"]
+- ["Ps23CustomStringConvertible", "artImageURL"]
+- ["Ps23CustomStringConvertible", "artistName"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "lyricsString"]
+- ["Ps23CustomStringConvertible", "trackName"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "albumName"]
+- ["Ps9Equatable", "artImageURL"]
+- ["Ps9Equatable", "artistName"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "lyricsString"]
+- ["Ps9Equatable", "trackName"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "albumName"]
+- ["Ps8Hashable", "artImageURL"]
+- ["Ps8Hashable", "artistName"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "lyricsString"]
+- ["Ps8Hashable", "trackName"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["C19MusicDirectoryTests11MusicObject", "String"]
+- ["C19MusicDirectoryTests11MusicObject", "albumName"]
+- ["C19MusicDirectoryTests11MusicObject", "artImageURL"]
+- ["C19MusicDirectoryTests11MusicObject", "artistName"]
+- ["C19MusicDirectoryTests11MusicObject", "deinit"]
+- ["C19MusicDirectoryTests11MusicObject", "init"]
+- ["C19MusicDirectoryTests11MusicObject", "lyricsString"]
+- ["C19MusicDirectoryTests11MusicObject", "trackName"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "albumName"]
+- ["CSo8NSObject", "artImageURL"]
+- ["CSo8NSObject", "artistName"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "lyricsString"]
+- ["CSo8NSObject", "trackName"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "albumName"]
+- ["PSo16NSObjectProtocol", "artImageURL"]
+- ["PSo16NSObjectProtocol", "artistName"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "lyricsString"]
+- ["PSo16NSObjectProtocol", "trackName"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Os5Never", "deinit"]
+- ["Sq", "deinit"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["Su", "deinit"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps9_Hashable", "albumName"]
+- ["Ps9_Hashable", "artImageURL"]
+- ["Ps9_Hashable", "artistName"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "lyricsString"]
+- ["Ps9_Hashable", "trackName"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "C19MusicDirectoryTests11MusicObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Os5Never"
+- "Sq"
+- "Vs12StaticString"
+- "Su"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/corygraham/Desktop/MusicDirectory/MusicDirectory/Build/Products/Debug-iphonesimulator/MusicDirectory.swiftmodule/x86_64.swiftmodule"
+interface-hash: "211ba13b03ddb47b259e3875e77ab87b"

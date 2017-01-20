@@ -1,6 +1,11 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "31fb879e2261d0c224385211af31784b"
-build_time: [538180192, 379429000]
+build_time: [538260405, 717594000]
 inputs:
-  "/Users/corygraham/Desktop/MusicDirectory/MusicDirectory/MusicDirectory/ViewController.swift": [538180189, 0]
+  "/Users/corygraham/Desktop/MusicDirectory/MusicDirectory/MusicDirectory/APIVersionOne.swift": [538258249, 0]
+  "/Users/corygraham/Desktop/MusicDirectory/MusicDirectory/MusicDirectory/ViewController.swift": [538260405, 0]
+  "/Users/corygraham/Desktop/MusicDirectory/MusicDirectory/MusicDirectory/MusicObject.swift": [538187377, 0]
+  "/Users/corygraham/Desktop/MusicDirectory/MusicDirectory/MusicDirectory/MainTableViewCell.swift": [538257122, 0]
+  "/Users/corygraham/Desktop/MusicDirectory/MusicDirectory/MusicDirectory/APIResponse.swift": [538254006, 0]
   "/Users/corygraham/Desktop/MusicDirectory/MusicDirectory/MusicDirectory/AppDelegate.swift": [538180189, 0]
+  "/Users/corygraham/Desktop/MusicDirectory/MusicDirectory/MusicDirectory/DetailViewController.swift": [538259612, 0]

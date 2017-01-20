@@ -1,0 +1,649 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "APIVersionOne"
+provides-nominal:
+- "C14MusicDirectory13APIVersionOne"
+provides-member:
+- ["C14MusicDirectory13APIVersionOne", ""]
+- ["SS", ""]
+- ["SS", "replace"]
+provides-dynamic-lookup:
+- "createResultsFromData"
+- "getMusicInformation"
+- "getLyrics"
+depends-top-level:
+- "Selector"
+- !private "+"
+- !private "StringLiteralType"
+- "AnyObject"
+- !private "!="
+- "String"
+- !private "NSMutableDictionary"
+- !private "NSString"
+- "APIResponse"
+- !private "URL"
+- !private "!"
+- "Data"
+- !private "BooleanLiteralType"
+- !private "JSONSerialization"
+- "NSObject"
+- "URLSessionDelegate"
+- !private "UnicodeScalarType"
+- !private "Array"
+- "APIVersionOne"
+- !private "NSData"
+- !private "print"
+- "AssignmentPrecedence"
+- !private "=="
+- "CastingPrecedence"
+- !private "NSMutableURLRequest"
+- !private "URLSession"
+depends-member:
+- !private ["C14MusicDirectory11APIResponse", "data"]
+- ["C14MusicDirectory11APIResponse", "deinit"]
+- !private ["C14MusicDirectory11APIResponse", "init"]
+- !private ["C14MusicDirectory11APIResponse", "message"]
+- !private ["C14MusicDirectory11APIResponse", "success"]
+- ["C14MusicDirectory13APIVersionOne", "APIResponse"]
+- ["C14MusicDirectory13APIVersionOne", "AnyObject"]
+- ["C14MusicDirectory13APIVersionOne", "Data"]
+- !private ["C14MusicDirectory13APIVersionOne", "JSONSerialization"]
+- !private ["C14MusicDirectory13APIVersionOne", "NSData"]
+- !private ["C14MusicDirectory13APIVersionOne", "NSMutableDictionary"]
+- !private ["C14MusicDirectory13APIVersionOne", "NSMutableURLRequest"]
+- ["C14MusicDirectory13APIVersionOne", "Selector"]
+- ["C14MusicDirectory13APIVersionOne", "String"]
+- !private ["C14MusicDirectory13APIVersionOne", "URL"]
+- ["C14MusicDirectory13APIVersionOne", "URLSession"]
+- ["C14MusicDirectory13APIVersionOne", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["C14MusicDirectory13APIVersionOne", "createResultsFromData"]
+- ["C14MusicDirectory13APIVersionOne", "deinit"]
+- ["C14MusicDirectory13APIVersionOne", "getLyrics"]
+- ["C14MusicDirectory13APIVersionOne", "getMusicInformation"]
+- ["C14MusicDirectory13APIVersionOne", "init"]
+- !private ["C14MusicDirectory13APIVersionOne", "print"]
+- ["C14MusicDirectory13APIVersionOne", "urlSession"]
+- ["C14MusicDirectory13APIVersionOne", "urlSessionDidFinishEvents"]
+- !private ["Ps9AnyObject", "APIResponse"]
+- !private ["Ps9AnyObject", "CompareOptions"]
+- !private ["Ps9AnyObject", "JSONSerialization"]
+- !private ["Ps9AnyObject", "NSMutableDictionary"]
+- !private ["Ps9AnyObject", "NSMutableURLRequest"]
+- !private ["Ps9AnyObject", "ReadingOptions"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "URL"]
+- ["Ps9AnyObject", "URLSession"]
+- ["Ps9AnyObject", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["Ps9AnyObject", "createResultsFromData"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "dataTask"]
+- !private ["Ps9AnyObject", "deinit"]
+- ["Ps9AnyObject", "getLyrics"]
+- ["Ps9AnyObject", "getMusicInformation"]
+- !private ["Ps9AnyObject", "httpMethod"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isValidJSONObject"]
+- !private ["Ps9AnyObject", "jsonObject"]
+- !private ["Ps9AnyObject", "message"]
+- !private ["Ps9AnyObject", "perform"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "replace"]
+- !private ["Ps9AnyObject", "replacingOccurrences"]
+- !private ["Ps9AnyObject", "resume"]
+- !private ["Ps9AnyObject", "setValue"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "success"]
+- ["Ps9AnyObject", "urlSession"]
+- ["Ps9AnyObject", "urlSessionDidFinishEvents"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "APIResponse"]
+- !private ["Ps7CVarArg", "CompareOptions"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "JSONSerialization"]
+- !private ["Ps7CVarArg", "NSMutableDictionary"]
+- !private ["Ps7CVarArg", "NSMutableURLRequest"]
+- !private ["Ps7CVarArg", "NSString"]
+- !private ["Ps7CVarArg", "ReadingOptions"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "URL"]
+- ["Ps7CVarArg", "URLSession"]
+- ["Ps7CVarArg", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["Ps7CVarArg", "createResultsFromData"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "dataTask"]
+- ["Ps7CVarArg", "getLyrics"]
+- ["Ps7CVarArg", "getMusicInformation"]
+- !private ["Ps7CVarArg", "httpMethod"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isValidJSONObject"]
+- !private ["Ps7CVarArg", "jsonObject"]
+- !private ["Ps7CVarArg", "message"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "replace"]
+- !private ["Ps7CVarArg", "replacingOccurrences"]
+- !private ["Ps7CVarArg", "resume"]
+- !private ["Ps7CVarArg", "setValue"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "success"]
+- ["Ps7CVarArg", "urlSession"]
+- ["Ps7CVarArg", "urlSessionDidFinishEvents"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Comparable", "NSString"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "replace"]
+- !private ["Ps10Comparable", "replacingOccurrences"]
+- ["VCSo8NSString14CompareOptions", "deinit"]
+- !private ["VCSo8NSString14CompareOptions", "literal"]
+- !private ["Ps28CustomDebugStringConvertible", "APIResponse"]
+- !private ["Ps28CustomDebugStringConvertible", "CompareOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONSerialization"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableDictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableURLRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "NSString"]
+- !private ["Ps28CustomDebugStringConvertible", "ReadingOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- ["Ps28CustomDebugStringConvertible", "URLSession"]
+- ["Ps28CustomDebugStringConvertible", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["Ps28CustomDebugStringConvertible", "createResultsFromData"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTask"]
+- ["Ps28CustomDebugStringConvertible", "getLyrics"]
+- ["Ps28CustomDebugStringConvertible", "getMusicInformation"]
+- !private ["Ps28CustomDebugStringConvertible", "httpMethod"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isValidJSONObject"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonObject"]
+- !private ["Ps28CustomDebugStringConvertible", "message"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "replace"]
+- !private ["Ps28CustomDebugStringConvertible", "replacingOccurrences"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "success"]
+- ["Ps28CustomDebugStringConvertible", "urlSession"]
+- ["Ps28CustomDebugStringConvertible", "urlSessionDidFinishEvents"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "CompareOptions"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "NSString"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "replace"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "replacingOccurrences"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "NSString"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "replace"]
+- !private ["Ps17CustomReflectable", "replacingOccurrences"]
+- !private ["Ps17CustomReflectable", "setValue"]
+- !private ["Ps23CustomStringConvertible", "APIResponse"]
+- !private ["Ps23CustomStringConvertible", "CompareOptions"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "JSONSerialization"]
+- !private ["Ps23CustomStringConvertible", "NSMutableDictionary"]
+- !private ["Ps23CustomStringConvertible", "NSMutableURLRequest"]
+- !private ["Ps23CustomStringConvertible", "NSString"]
+- !private ["Ps23CustomStringConvertible", "ReadingOptions"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- ["Ps23CustomStringConvertible", "URLSession"]
+- ["Ps23CustomStringConvertible", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "createResultsFromData"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "dataTask"]
+- ["Ps23CustomStringConvertible", "getLyrics"]
+- ["Ps23CustomStringConvertible", "getMusicInformation"]
+- !private ["Ps23CustomStringConvertible", "httpMethod"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isValidJSONObject"]
+- !private ["Ps23CustomStringConvertible", "jsonObject"]
+- !private ["Ps23CustomStringConvertible", "message"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "replace"]
+- !private ["Ps23CustomStringConvertible", "replacingOccurrences"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "success"]
+- ["Ps23CustomStringConvertible", "urlSession"]
+- ["Ps23CustomStringConvertible", "urlSessionDidFinishEvents"]
+- ["Ps23CustomStringConvertible", ""]
+- ["V10Foundation4Data", "deinit"]
+- !private ["Ps9Equatable", "APIResponse"]
+- !private ["Ps9Equatable", "CompareOptions"]
+- !private ["Ps9Equatable", "JSONSerialization"]
+- !private ["Ps9Equatable", "NSMutableDictionary"]
+- !private ["Ps9Equatable", "NSMutableURLRequest"]
+- !private ["Ps9Equatable", "NSString"]
+- !private ["Ps9Equatable", "ReadingOptions"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "URL"]
+- ["Ps9Equatable", "URLSession"]
+- ["Ps9Equatable", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "allowFragments"]
+- ["Ps9Equatable", "createResultsFromData"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "dataTask"]
+- ["Ps9Equatable", "getLyrics"]
+- ["Ps9Equatable", "getMusicInformation"]
+- !private ["Ps9Equatable", "httpMethod"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isValidJSONObject"]
+- !private ["Ps9Equatable", "jsonObject"]
+- !private ["Ps9Equatable", "literal"]
+- !private ["Ps9Equatable", "message"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "replace"]
+- !private ["Ps9Equatable", "replacingOccurrences"]
+- !private ["Ps9Equatable", "resume"]
+- !private ["Ps9Equatable", "setValue"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "success"]
+- ["Ps9Equatable", "urlSession"]
+- ["Ps9Equatable", "urlSessionDidFinishEvents"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "allowFragments"]
+- !private ["Ps25ExpressibleByArrayLiteral", "literal"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "setValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "CompareOptions"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "NSString"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "replace"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "replacingOccurrences"]
+- !private ["Ps32ExpressibleByStringInterpolation", "NSString"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "replace"]
+- !private ["Ps32ExpressibleByStringInterpolation", "replacingOccurrences"]
+- !private ["Ps26ExpressibleByStringLiteral", "CompareOptions"]
+- !private ["Ps26ExpressibleByStringLiteral", "NSString"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "replace"]
+- !private ["Ps26ExpressibleByStringLiteral", "replacingOccurrences"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "CompareOptions"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "NSString"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "replace"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "replacingOccurrences"]
+- !private ["Ps8Hashable", "APIResponse"]
+- !private ["Ps8Hashable", "CompareOptions"]
+- !private ["Ps8Hashable", "JSONSerialization"]
+- !private ["Ps8Hashable", "NSMutableDictionary"]
+- !private ["Ps8Hashable", "NSMutableURLRequest"]
+- !private ["Ps8Hashable", "NSString"]
+- !private ["Ps8Hashable", "ReadingOptions"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "URL"]
+- ["Ps8Hashable", "URLSession"]
+- ["Ps8Hashable", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "createResultsFromData"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "dataTask"]
+- ["Ps8Hashable", "getLyrics"]
+- ["Ps8Hashable", "getMusicInformation"]
+- !private ["Ps8Hashable", "httpMethod"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isValidJSONObject"]
+- !private ["Ps8Hashable", "jsonObject"]
+- !private ["Ps8Hashable", "message"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "replace"]
+- !private ["Ps8Hashable", "replacingOccurrences"]
+- !private ["Ps8Hashable", "resume"]
+- !private ["Ps8Hashable", "setValue"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "success"]
+- ["Ps8Hashable", "urlSession"]
+- ["Ps8Hashable", "urlSessionDidFinishEvents"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["CSo17JSONSerialization", "ReadingOptions"]
+- !private ["CSo17JSONSerialization", "isValidJSONObject"]
+- !private ["CSo17JSONSerialization", "jsonObject"]
+- !private ["Ps25LosslessStringConvertible", "NSString"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "replace"]
+- !private ["Ps25LosslessStringConvertible", "replacingOccurrences"]
+- !private ["Ps10MirrorPath", "NSString"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "replace"]
+- !private ["Ps10MirrorPath", "replacingOccurrences"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["PSo8NSCoding", "CompareOptions"]
+- !private ["PSo8NSCoding", "httpMethod"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "replace"]
+- !private ["PSo8NSCoding", "replacingOccurrences"]
+- !private ["PSo8NSCoding", "setValue"]
+- !private ["PSo9NSCopying", "CompareOptions"]
+- !private ["PSo9NSCopying", "httpMethod"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "replace"]
+- !private ["PSo9NSCopying", "replacingOccurrences"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "setValue"]
+- ["CSo6NSData", "deinit"]
+- !private ["CSo12NSDictionary", "init"]
+- !private ["CSo12NSDictionary", "setValue"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- !private ["PSo17NSFastEnumeration", "setValue"]
+- !private ["PSo16NSMutableCopying", "CompareOptions"]
+- !private ["PSo16NSMutableCopying", "httpMethod"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "replace"]
+- !private ["PSo16NSMutableCopying", "replacingOccurrences"]
+- !private ["PSo16NSMutableCopying", "setValue"]
+- ["CSo19NSMutableDictionary", "deinit"]
+- !private ["CSo19NSMutableDictionary", "init"]
+- !private ["CSo19NSMutableDictionary", "setValue"]
+- ["CSo19NSMutableURLRequest", "deinit"]
+- !private ["CSo19NSMutableURLRequest", "httpMethod"]
+- !private ["CSo19NSMutableURLRequest", "init"]
+- ["CSo8NSObject", "APIResponse"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CompareOptions"]
+- ["CSo8NSObject", "Data"]
+- !private ["CSo8NSObject", "JSONSerialization"]
+- !private ["CSo8NSObject", "NSData"]
+- !private ["CSo8NSObject", "NSMutableDictionary"]
+- !private ["CSo8NSObject", "NSMutableURLRequest"]
+- !private ["CSo8NSObject", "ReadingOptions"]
+- ["CSo8NSObject", "Selector"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "URL"]
+- ["CSo8NSObject", "URLSession"]
+- ["CSo8NSObject", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["CSo8NSObject", "createResultsFromData"]
+- !private ["CSo8NSObject", "data"]
+- !private ["CSo8NSObject", "dataTask"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "getLyrics"]
+- ["CSo8NSObject", "getMusicInformation"]
+- !private ["CSo8NSObject", "httpMethod"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isValidJSONObject"]
+- !private ["CSo8NSObject", "jsonObject"]
+- !private ["CSo8NSObject", "message"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "replace"]
+- !private ["CSo8NSObject", "replacingOccurrences"]
+- !private ["CSo8NSObject", "resume"]
+- !private ["CSo8NSObject", "setValue"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "success"]
+- ["CSo8NSObject", "urlSession"]
+- ["CSo8NSObject", "urlSessionDidFinishEvents"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "APIResponse"]
+- !private ["PSo16NSObjectProtocol", "CompareOptions"]
+- !private ["PSo16NSObjectProtocol", "JSONSerialization"]
+- !private ["PSo16NSObjectProtocol", "NSMutableDictionary"]
+- !private ["PSo16NSObjectProtocol", "NSMutableURLRequest"]
+- !private ["PSo16NSObjectProtocol", "ReadingOptions"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- ["PSo16NSObjectProtocol", "URLSession"]
+- ["PSo16NSObjectProtocol", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["PSo16NSObjectProtocol", "createResultsFromData"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "dataTask"]
+- ["PSo16NSObjectProtocol", "getLyrics"]
+- ["PSo16NSObjectProtocol", "getMusicInformation"]
+- !private ["PSo16NSObjectProtocol", "httpMethod"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isValidJSONObject"]
+- !private ["PSo16NSObjectProtocol", "jsonObject"]
+- !private ["PSo16NSObjectProtocol", "message"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "replace"]
+- !private ["PSo16NSObjectProtocol", "replacingOccurrences"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "success"]
+- ["PSo16NSObjectProtocol", "urlSession"]
+- ["PSo16NSObjectProtocol", "urlSessionDidFinishEvents"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CompareOptions"]
+- !private ["PSo14NSSecureCoding", "httpMethod"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "replace"]
+- !private ["PSo14NSSecureCoding", "replacingOccurrences"]
+- !private ["PSo14NSSecureCoding", "setValue"]
+- !private ["CSo8NSString", "CompareOptions"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "replace"]
+- !private ["CSo8NSString", "replacingOccurrences"]
+- !private ["CSo12NSURLRequest", "httpMethod"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["Ps9OptionSet", "allowFragments"]
+- !private ["Ps9OptionSet", "literal"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps16RawRepresentable", "allowFragments"]
+- !private ["Ps16RawRepresentable", "literal"]
+- !private ["VCSo17JSONSerialization14ReadingOptions", "allowFragments"]
+- ["VCSo17JSONSerialization14ReadingOptions", "deinit"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "setValue"]
+- !private ["Ps10SetAlgebra", "allowFragments"]
+- !private ["Ps10SetAlgebra", "literal"]
+- !private ["SS", "NSString"]
+- ["SS", "String"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- ["SS", "replace"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["Ps16TextOutputStream", "NSString"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "replace"]
+- !private ["Ps16TextOutputStream", "replacingOccurrences"]
+- !private ["Ps20TextOutputStreamable", "NSString"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "replace"]
+- !private ["Ps20TextOutputStreamable", "replacingOccurrences"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- !private ["CSo10URLSession", "dataTask"]
+- ["CSo10URLSession", "deinit"]
+- !private ["CSo10URLSession", "shared"]
+- ["CSo18URLSessionDataTask", "deinit"]
+- !private ["CSo18URLSessionDataTask", "resume"]
+- !private ["PSo18URLSessionDelegate", "APIResponse"]
+- !private ["PSo18URLSessionDelegate", "JSONSerialization"]
+- !private ["PSo18URLSessionDelegate", "NSMutableDictionary"]
+- !private ["PSo18URLSessionDelegate", "NSMutableURLRequest"]
+- !private ["PSo18URLSessionDelegate", "String"]
+- !private ["PSo18URLSessionDelegate", "URL"]
+- ["PSo18URLSessionDelegate", "URLSession"]
+- ["PSo18URLSessionDelegate", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["PSo18URLSessionDelegate", "createResultsFromData"]
+- !private ["PSo18URLSessionDelegate", "print"]
+- ["PSo18URLSessionDelegate", "urlSession"]
+- ["PSo18URLSessionDelegate", "urlSessionDidFinishEvents"]
+- ["PSo18URLSessionDelegate", ""]
+- !private ["CSo14URLSessionTask", "resume"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "NSString"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "replace"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "replacingOccurrences"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "NSString"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "replace"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "replacingOccurrences"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "NSString"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "replace"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "replacingOccurrences"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "NSString"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "replace"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "replacingOccurrences"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "CompareOptions"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "httpMethod"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "replace"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "replacingOccurrences"]
+- !private ["Ps9_Hashable", "APIResponse"]
+- !private ["Ps9_Hashable", "CompareOptions"]
+- !private ["Ps9_Hashable", "JSONSerialization"]
+- !private ["Ps9_Hashable", "NSMutableDictionary"]
+- !private ["Ps9_Hashable", "NSMutableURLRequest"]
+- !private ["Ps9_Hashable", "NSString"]
+- !private ["Ps9_Hashable", "ReadingOptions"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "URL"]
+- ["Ps9_Hashable", "URLSession"]
+- ["Ps9_Hashable", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "createResultsFromData"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "dataTask"]
+- ["Ps9_Hashable", "getLyrics"]
+- ["Ps9_Hashable", "getMusicInformation"]
+- !private ["Ps9_Hashable", "httpMethod"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isValidJSONObject"]
+- !private ["Ps9_Hashable", "jsonObject"]
+- !private ["Ps9_Hashable", "message"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "replace"]
+- !private ["Ps9_Hashable", "replacingOccurrences"]
+- !private ["Ps9_Hashable", "resume"]
+- !private ["Ps9_Hashable", "setValue"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "success"]
+- ["Ps9_Hashable", "urlSession"]
+- ["Ps9_Hashable", "urlSessionDidFinishEvents"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "NSString"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "replace"]
+- !private ["Ps21_ObjectiveCBridgeable", "replacingOccurrences"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "C14MusicDirectory11APIResponse"
+- "C14MusicDirectory13APIVersionOne"
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "VCSo8NSString14CompareOptions"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "CSo17JSONSerialization"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo6NSData"
+- !private "CSo12NSDictionary"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- "CSo19NSMutableDictionary"
+- "CSo19NSMutableURLRequest"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo12NSURLRequest"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- "VCSo17JSONSerialization14ReadingOptions"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "V10ObjectiveC8Selector"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "V10Foundation3URL"
+- "CSo10URLSession"
+- "CSo18URLSessionDataTask"
+- "PSo18URLSessionDelegate"
+- !private "CSo14URLSessionTask"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+- !private "perform"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "4be49d2d69d481f4d0f737672eb92203"

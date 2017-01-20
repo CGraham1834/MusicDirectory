@@ -1,0 +1,383 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MusicObjectTests"
+provides-nominal:
+- "C19MusicDirectoryTests16MusicObjectTests"
+provides-member:
+- ["C19MusicDirectoryTests16MusicObjectTests", ""]
+provides-dynamic-lookup:
+- "testPerformanceExample"
+- "testMusicObjectTrackName"
+- "testMusicObjectNotNil"
+- "testExample"
+- "testMusicObjectAlbumName"
+- "testMusicObjectImageURL"
+- "testMusicObjectArtistName"
+- "setUp"
+- "testMusicObjectLyrics"
+- "tearDown"
+depends-top-level:
+- !private "StringLiteralType"
+- !private "XCTAssertEqual"
+- "MusicObjectTests"
+- !private "MusicObject"
+- !private "XCTAssertNotNil"
+- "XCTestCase"
+depends-member:
+- !private ["Ps9AnyObject", "MusicObject"]
+- !private ["Ps9AnyObject", "XCTAssertEqual"]
+- !private ["Ps9AnyObject", "XCTAssertNotNil"]
+- !private ["Ps9AnyObject", "albumName"]
+- !private ["Ps9AnyObject", "artImageURL"]
+- !private ["Ps9AnyObject", "artistName"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lyricsString"]
+- !private ["Ps9AnyObject", "measure"]
+- ["Ps9AnyObject", "setUp"]
+- ["Ps9AnyObject", "tearDown"]
+- ["Ps9AnyObject", "testExample"]
+- ["Ps9AnyObject", "testMusicObjectAlbumName"]
+- ["Ps9AnyObject", "testMusicObjectArtistName"]
+- ["Ps9AnyObject", "testMusicObjectImageURL"]
+- ["Ps9AnyObject", "testMusicObjectLyrics"]
+- ["Ps9AnyObject", "testMusicObjectNotNil"]
+- ["Ps9AnyObject", "testMusicObjectTrackName"]
+- ["Ps9AnyObject", "testPerformanceExample"]
+- !private ["Ps9AnyObject", "trackName"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "MusicObject"]
+- !private ["Ps7CVarArg", "XCTAssertEqual"]
+- !private ["Ps7CVarArg", "XCTAssertNotNil"]
+- !private ["Ps7CVarArg", "albumName"]
+- !private ["Ps7CVarArg", "artImageURL"]
+- !private ["Ps7CVarArg", "artistName"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "lyricsString"]
+- !private ["Ps7CVarArg", "measure"]
+- ["Ps7CVarArg", "setUp"]
+- ["Ps7CVarArg", "tearDown"]
+- ["Ps7CVarArg", "testExample"]
+- ["Ps7CVarArg", "testMusicObjectAlbumName"]
+- ["Ps7CVarArg", "testMusicObjectArtistName"]
+- ["Ps7CVarArg", "testMusicObjectImageURL"]
+- ["Ps7CVarArg", "testMusicObjectLyrics"]
+- ["Ps7CVarArg", "testMusicObjectNotNil"]
+- ["Ps7CVarArg", "testMusicObjectTrackName"]
+- ["Ps7CVarArg", "testPerformanceExample"]
+- !private ["Ps7CVarArg", "trackName"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "MusicObject"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertEqual"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertNotNil"]
+- !private ["Ps28CustomDebugStringConvertible", "albumName"]
+- !private ["Ps28CustomDebugStringConvertible", "artImageURL"]
+- !private ["Ps28CustomDebugStringConvertible", "artistName"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lyricsString"]
+- !private ["Ps28CustomDebugStringConvertible", "measure"]
+- ["Ps28CustomDebugStringConvertible", "setUp"]
+- ["Ps28CustomDebugStringConvertible", "tearDown"]
+- ["Ps28CustomDebugStringConvertible", "testExample"]
+- ["Ps28CustomDebugStringConvertible", "testMusicObjectAlbumName"]
+- ["Ps28CustomDebugStringConvertible", "testMusicObjectArtistName"]
+- ["Ps28CustomDebugStringConvertible", "testMusicObjectImageURL"]
+- ["Ps28CustomDebugStringConvertible", "testMusicObjectLyrics"]
+- ["Ps28CustomDebugStringConvertible", "testMusicObjectNotNil"]
+- ["Ps28CustomDebugStringConvertible", "testMusicObjectTrackName"]
+- ["Ps28CustomDebugStringConvertible", "testPerformanceExample"]
+- !private ["Ps28CustomDebugStringConvertible", "trackName"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "MusicObject"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertEqual"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertNotNil"]
+- !private ["Ps23CustomStringConvertible", "albumName"]
+- !private ["Ps23CustomStringConvertible", "artImageURL"]
+- !private ["Ps23CustomStringConvertible", "artistName"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lyricsString"]
+- !private ["Ps23CustomStringConvertible", "measure"]
+- ["Ps23CustomStringConvertible", "setUp"]
+- ["Ps23CustomStringConvertible", "tearDown"]
+- ["Ps23CustomStringConvertible", "testExample"]
+- ["Ps23CustomStringConvertible", "testMusicObjectAlbumName"]
+- ["Ps23CustomStringConvertible", "testMusicObjectArtistName"]
+- ["Ps23CustomStringConvertible", "testMusicObjectImageURL"]
+- ["Ps23CustomStringConvertible", "testMusicObjectLyrics"]
+- ["Ps23CustomStringConvertible", "testMusicObjectNotNil"]
+- ["Ps23CustomStringConvertible", "testMusicObjectTrackName"]
+- ["Ps23CustomStringConvertible", "testPerformanceExample"]
+- !private ["Ps23CustomStringConvertible", "trackName"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "MusicObject"]
+- !private ["Ps9Equatable", "XCTAssertEqual"]
+- !private ["Ps9Equatable", "XCTAssertNotNil"]
+- !private ["Ps9Equatable", "albumName"]
+- !private ["Ps9Equatable", "artImageURL"]
+- !private ["Ps9Equatable", "artistName"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lyricsString"]
+- !private ["Ps9Equatable", "measure"]
+- ["Ps9Equatable", "setUp"]
+- ["Ps9Equatable", "tearDown"]
+- ["Ps9Equatable", "testExample"]
+- ["Ps9Equatable", "testMusicObjectAlbumName"]
+- ["Ps9Equatable", "testMusicObjectArtistName"]
+- ["Ps9Equatable", "testMusicObjectImageURL"]
+- ["Ps9Equatable", "testMusicObjectLyrics"]
+- ["Ps9Equatable", "testMusicObjectNotNil"]
+- ["Ps9Equatable", "testMusicObjectTrackName"]
+- ["Ps9Equatable", "testPerformanceExample"]
+- !private ["Ps9Equatable", "trackName"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "MusicObject"]
+- !private ["Ps8Hashable", "XCTAssertEqual"]
+- !private ["Ps8Hashable", "XCTAssertNotNil"]
+- !private ["Ps8Hashable", "albumName"]
+- !private ["Ps8Hashable", "artImageURL"]
+- !private ["Ps8Hashable", "artistName"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lyricsString"]
+- !private ["Ps8Hashable", "measure"]
+- ["Ps8Hashable", "setUp"]
+- ["Ps8Hashable", "tearDown"]
+- ["Ps8Hashable", "testExample"]
+- ["Ps8Hashable", "testMusicObjectAlbumName"]
+- ["Ps8Hashable", "testMusicObjectArtistName"]
+- ["Ps8Hashable", "testMusicObjectImageURL"]
+- ["Ps8Hashable", "testMusicObjectLyrics"]
+- ["Ps8Hashable", "testMusicObjectNotNil"]
+- ["Ps8Hashable", "testMusicObjectTrackName"]
+- ["Ps8Hashable", "testPerformanceExample"]
+- !private ["Ps8Hashable", "trackName"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["C19MusicDirectoryTests11MusicObject", "albumName"]
+- !private ["C19MusicDirectoryTests11MusicObject", "artImageURL"]
+- !private ["C19MusicDirectoryTests11MusicObject", "artistName"]
+- ["C19MusicDirectoryTests11MusicObject", "deinit"]
+- !private ["C19MusicDirectoryTests11MusicObject", "init"]
+- !private ["C19MusicDirectoryTests11MusicObject", "lyricsString"]
+- !private ["C19MusicDirectoryTests11MusicObject", "trackName"]
+- !private ["C19MusicDirectoryTests16MusicObjectTests", "MusicObject"]
+- !private ["C19MusicDirectoryTests16MusicObjectTests", "XCTAssertEqual"]
+- !private ["C19MusicDirectoryTests16MusicObjectTests", "XCTAssertNotNil"]
+- ["C19MusicDirectoryTests16MusicObjectTests", "deinit"]
+- ["C19MusicDirectoryTests16MusicObjectTests", "init"]
+- !private ["C19MusicDirectoryTests16MusicObjectTests", "measure"]
+- ["C19MusicDirectoryTests16MusicObjectTests", "setUp"]
+- ["C19MusicDirectoryTests16MusicObjectTests", "tearDown"]
+- ["C19MusicDirectoryTests16MusicObjectTests", "testExample"]
+- ["C19MusicDirectoryTests16MusicObjectTests", "testMusicObjectAlbumName"]
+- ["C19MusicDirectoryTests16MusicObjectTests", "testMusicObjectArtistName"]
+- ["C19MusicDirectoryTests16MusicObjectTests", "testMusicObjectImageURL"]
+- ["C19MusicDirectoryTests16MusicObjectTests", "testMusicObjectLyrics"]
+- ["C19MusicDirectoryTests16MusicObjectTests", "testMusicObjectNotNil"]
+- ["C19MusicDirectoryTests16MusicObjectTests", "testMusicObjectTrackName"]
+- ["C19MusicDirectoryTests16MusicObjectTests", "testPerformanceExample"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "MusicObject"]
+- !private ["CSo8NSObject", "XCTAssertEqual"]
+- !private ["CSo8NSObject", "XCTAssertNotNil"]
+- !private ["CSo8NSObject", "albumName"]
+- !private ["CSo8NSObject", "artImageURL"]
+- !private ["CSo8NSObject", "artistName"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "lyricsString"]
+- !private ["CSo8NSObject", "measure"]
+- ["CSo8NSObject", "setUp"]
+- ["CSo8NSObject", "tearDown"]
+- ["CSo8NSObject", "testExample"]
+- ["CSo8NSObject", "testMusicObjectAlbumName"]
+- ["CSo8NSObject", "testMusicObjectArtistName"]
+- ["CSo8NSObject", "testMusicObjectImageURL"]
+- ["CSo8NSObject", "testMusicObjectLyrics"]
+- ["CSo8NSObject", "testMusicObjectNotNil"]
+- ["CSo8NSObject", "testMusicObjectTrackName"]
+- ["CSo8NSObject", "testPerformanceExample"]
+- !private ["CSo8NSObject", "trackName"]
+- !private ["PSo16NSObjectProtocol", "MusicObject"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertEqual"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertNotNil"]
+- !private ["PSo16NSObjectProtocol", "albumName"]
+- !private ["PSo16NSObjectProtocol", "artImageURL"]
+- !private ["PSo16NSObjectProtocol", "artistName"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lyricsString"]
+- !private ["PSo16NSObjectProtocol", "measure"]
+- ["PSo16NSObjectProtocol", "setUp"]
+- ["PSo16NSObjectProtocol", "tearDown"]
+- ["PSo16NSObjectProtocol", "testExample"]
+- ["PSo16NSObjectProtocol", "testMusicObjectAlbumName"]
+- ["PSo16NSObjectProtocol", "testMusicObjectArtistName"]
+- ["PSo16NSObjectProtocol", "testMusicObjectImageURL"]
+- ["PSo16NSObjectProtocol", "testMusicObjectLyrics"]
+- ["PSo16NSObjectProtocol", "testMusicObjectNotNil"]
+- ["PSo16NSObjectProtocol", "testMusicObjectTrackName"]
+- ["PSo16NSObjectProtocol", "testPerformanceExample"]
+- !private ["PSo16NSObjectProtocol", "trackName"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- !private ["CSo6XCTest", "MusicObject"]
+- !private ["CSo6XCTest", "XCTAssertEqual"]
+- !private ["CSo6XCTest", "XCTAssertNotNil"]
+- ["CSo6XCTest", "init"]
+- !private ["CSo6XCTest", "measure"]
+- ["CSo6XCTest", "setUp"]
+- ["CSo6XCTest", "tearDown"]
+- ["CSo6XCTest", "testExample"]
+- ["CSo6XCTest", "testMusicObjectAlbumName"]
+- ["CSo6XCTest", "testMusicObjectArtistName"]
+- ["CSo6XCTest", "testMusicObjectImageURL"]
+- ["CSo6XCTest", "testMusicObjectLyrics"]
+- ["CSo6XCTest", "testMusicObjectNotNil"]
+- ["CSo6XCTest", "testMusicObjectTrackName"]
+- ["CSo6XCTest", "testPerformanceExample"]
+- !private ["CSo10XCTestCase", "MusicObject"]
+- !private ["CSo10XCTestCase", "XCTAssertEqual"]
+- !private ["CSo10XCTestCase", "XCTAssertNotNil"]
+- ["CSo10XCTestCase", "deinit"]
+- ["CSo10XCTestCase", "init"]
+- !private ["CSo10XCTestCase", "measure"]
+- ["CSo10XCTestCase", "setUp"]
+- ["CSo10XCTestCase", "tearDown"]
+- ["CSo10XCTestCase", "testExample"]
+- ["CSo10XCTestCase", "testMusicObjectAlbumName"]
+- ["CSo10XCTestCase", "testMusicObjectArtistName"]
+- ["CSo10XCTestCase", "testMusicObjectImageURL"]
+- ["CSo10XCTestCase", "testMusicObjectLyrics"]
+- ["CSo10XCTestCase", "testMusicObjectNotNil"]
+- ["CSo10XCTestCase", "testMusicObjectTrackName"]
+- ["CSo10XCTestCase", "testPerformanceExample"]
+- ["CSo10XCTestCase", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "MusicObject"]
+- !private ["Ps9_Hashable", "XCTAssertEqual"]
+- !private ["Ps9_Hashable", "XCTAssertNotNil"]
+- !private ["Ps9_Hashable", "albumName"]
+- !private ["Ps9_Hashable", "artImageURL"]
+- !private ["Ps9_Hashable", "artistName"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lyricsString"]
+- !private ["Ps9_Hashable", "measure"]
+- ["Ps9_Hashable", "setUp"]
+- ["Ps9_Hashable", "tearDown"]
+- ["Ps9_Hashable", "testExample"]
+- ["Ps9_Hashable", "testMusicObjectAlbumName"]
+- ["Ps9_Hashable", "testMusicObjectArtistName"]
+- ["Ps9_Hashable", "testMusicObjectImageURL"]
+- ["Ps9_Hashable", "testMusicObjectLyrics"]
+- ["Ps9_Hashable", "testMusicObjectNotNil"]
+- ["Ps9_Hashable", "testMusicObjectTrackName"]
+- ["Ps9_Hashable", "testPerformanceExample"]
+- !private ["Ps9_Hashable", "trackName"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "C19MusicDirectoryTests11MusicObject"
+- "C19MusicDirectoryTests16MusicObjectTests"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "V10ObjectiveC8Selector"
+- "Vs12StaticString"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Su"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/corygraham/Desktop/MusicDirectory/MusicDirectory/Build/Products/Debug-iphonesimulator/MusicDirectory.swiftmodule/x86_64.swiftmodule"
+interface-hash: "8a6ffa2e7b78af9ed3a875177c32ec54"

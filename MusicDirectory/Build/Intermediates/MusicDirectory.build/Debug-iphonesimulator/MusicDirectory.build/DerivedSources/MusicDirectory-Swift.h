@@ -115,11 +115,37 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_UNAVAILABLE __attribute__((unavailable))
 #endif
 #if defined(__has_feature) && __has_feature(modules)
+@import ObjectiveC;
+@import Foundation;
 @import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class NSDictionary;
+@class NSArray;
+
+SWIFT_CLASS("_TtC14MusicDirectory11APIResponse")
+@interface APIResponse : NSObject
+@property (nonatomic, copy) NSString * _Null_unspecified errorCode;
+@property (nonatomic, copy) NSString * _Null_unspecified message;
+@property (nonatomic, strong) NSDictionary * _Null_unspecified data;
+- (NSString * _Nonnull)responseMessage;
+- (NSString * _Nonnull)responseErrorCode;
+- (NSArray * _Nonnull)jsonResouceArray;
+- (NSString * _Nonnull)jsonResourceArrayString;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC14MusicDirectory13APIVersionOne")
+@interface APIVersionOne : NSObject <NSURLSessionDelegate>
+- (void)getMusicInformationWithSearchTerm:(NSString * _Nonnull)searchTerm caller:(id _Nonnull)caller selector:(SEL _Nonnull)selector;
+- (void)getLyricsWithArtistName:(NSString * _Nonnull)artistName songName:(NSString * _Nonnull)songName caller:(id _Nonnull)caller selector:(SEL _Nonnull)selector;
+- (APIResponse * _Nonnull)createResultsFromDataWithData:(NSData * _Nonnull)data;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 @class UIApplication;
 
@@ -135,13 +161,74 @@ SWIFT_CLASS("_TtC14MusicDirectory11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImage;
+@class UIImageView;
+@class UILabel;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC14MusicDirectory14ViewController")
-@interface ViewController : UIViewController
+SWIFT_CLASS("_TtC14MusicDirectory20DetailViewController")
+@interface DetailViewController : UIViewController
+@property (nonatomic, copy) NSString * _Null_unspecified artist;
+@property (nonatomic, copy) NSString * _Null_unspecified track;
+@property (nonatomic, copy) NSString * _Null_unspecified album;
+@property (nonatomic, strong) UIImage * _Null_unspecified image;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified artistName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified TrackName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified AlbumName;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC14MusicDirectory17MainTableViewCell")
+@interface MainTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified mainImage;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified artistName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified trackName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified albumName;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC14MusicDirectory11MusicObject")
+@interface MusicObject : NSObject
+@property (nonatomic, copy) NSString * _Null_unspecified artistName;
+@property (nonatomic, copy) NSString * _Null_unspecified albumName;
+@property (nonatomic, copy) NSString * _Null_unspecified trackName;
+@property (nonatomic, copy) NSString * _Null_unspecified artImageURL;
+@property (nonatomic, copy) NSString * _Null_unspecified lyricsString;
+- (nonnull instancetype)initWithArtist:(NSString * _Nullable)artist album:(NSString * _Nullable)album track:(NSString * _Nullable)track art:(NSString * _Nullable)art lyrics:(NSString * _Nullable)lyrics OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+@end
+
+@class NSMutableArray;
+@class UITableView;
+@class UITextField;
+@class UIStoryboardSegue;
+
+SWIFT_CLASS("_TtC14MusicDirectory14ViewController")
+@interface ViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITextFieldDelegate, UITableViewDelegate>
+@property (nonatomic, strong) NSMutableArray * _Null_unspecified MusicList;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified textField;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic, strong) NSCache<id, id> * _Nonnull cache;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)didReceiveMemoryWarning;
+- (void)getMusicWithMySelector:(SEL _Nonnull)mySelector searchTerm:(NSString * _Nonnull)searchTerm;
+- (void)handleResponseWithResponse:(APIResponse * _Nonnull)response;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

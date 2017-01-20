@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C14MusicDirectory11AppDelegate", ""]
 provides-dynamic-lookup:
+- "applicationWillResignActive"
 - "application"
-- "applicationWillEnterForeground"
+- "applicationWillTerminate"
 - "applicationDidBecomeActive"
 - "window"
-- "applicationWillTerminate"
-- "applicationWillResignActive"
+- "applicationWillEnterForeground"
 - "applicationDidEnterBackground"
 depends-top-level:
 - "Bool"
+- "UIWindow"
+- !private "BooleanLiteralType"
 - "UIApplicationDelegate"
 - "UIApplication"
-- "UIResponder"
 - "UIApplicationLaunchOptionsKey"
 - "AppDelegate"
-- !private "BooleanLiteralType"
-- "UIWindow"
+- "UIResponder"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]

@@ -1,0 +1,292 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainTableViewCell"
+provides-nominal:
+- "C14MusicDirectory17MainTableViewCell"
+provides-member:
+- ["C14MusicDirectory17MainTableViewCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "albumName"
+- "artistName"
+- "trackName"
+- "setSelected"
+- "mainImage"
+depends-top-level:
+- "Bool"
+- "UIImageView"
+- "UILabel"
+- "MainTableViewCell"
+- "UITableViewCell"
+depends-member:
+- ["Ps9AnyObject", "albumName"]
+- ["Ps9AnyObject", "artistName"]
+- ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "mainImage"]
+- ["Ps9AnyObject", "setSelected"]
+- ["Ps9AnyObject", "trackName"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- ["PSo15CALayerDelegate", "albumName"]
+- ["PSo15CALayerDelegate", "artistName"]
+- ["PSo15CALayerDelegate", "awakeFromNib"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "mainImage"]
+- ["PSo15CALayerDelegate", "setSelected"]
+- ["PSo15CALayerDelegate", "trackName"]
+- ["PSo15CALayerDelegate", ""]
+- ["Ps7CVarArg", "albumName"]
+- ["Ps7CVarArg", "artistName"]
+- ["Ps7CVarArg", "awakeFromNib"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "mainImage"]
+- ["Ps7CVarArg", "setSelected"]
+- ["Ps7CVarArg", "trackName"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "albumName"]
+- ["Ps28CustomDebugStringConvertible", "artistName"]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "mainImage"]
+- ["Ps28CustomDebugStringConvertible", "setSelected"]
+- ["Ps28CustomDebugStringConvertible", "trackName"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "albumName"]
+- ["Ps23CustomStringConvertible", "artistName"]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "mainImage"]
+- ["Ps23CustomStringConvertible", "setSelected"]
+- ["Ps23CustomStringConvertible", "trackName"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "albumName"]
+- ["Ps9Equatable", "artistName"]
+- ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "mainImage"]
+- ["Ps9Equatable", "setSelected"]
+- ["Ps9Equatable", "trackName"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "albumName"]
+- ["Ps8Hashable", "artistName"]
+- ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "mainImage"]
+- ["Ps8Hashable", "setSelected"]
+- ["Ps8Hashable", "trackName"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["C14MusicDirectory17MainTableViewCell", "Bool"]
+- ["C14MusicDirectory17MainTableViewCell", "UIImageView"]
+- ["C14MusicDirectory17MainTableViewCell", "UILabel"]
+- ["C14MusicDirectory17MainTableViewCell", "albumName"]
+- ["C14MusicDirectory17MainTableViewCell", "artistName"]
+- ["C14MusicDirectory17MainTableViewCell", "awakeFromNib"]
+- ["C14MusicDirectory17MainTableViewCell", "deinit"]
+- ["C14MusicDirectory17MainTableViewCell", "init"]
+- ["C14MusicDirectory17MainTableViewCell", "mainImage"]
+- ["C14MusicDirectory17MainTableViewCell", "setSelected"]
+- ["C14MusicDirectory17MainTableViewCell", "trackName"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "albumName"]
+- ["PSo8NSCoding", "artistName"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "mainImage"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", "trackName"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "albumName"]
+- ["CSo8NSObject", "artistName"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "mainImage"]
+- ["CSo8NSObject", "setSelected"]
+- ["CSo8NSObject", "trackName"]
+- ["PSo16NSObjectProtocol", "albumName"]
+- ["PSo16NSObjectProtocol", "artistName"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "mainImage"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", "trackName"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["PSo29UIAccessibilityIdentification", "albumName"]
+- ["PSo29UIAccessibilityIdentification", "artistName"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "mainImage"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", "trackName"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "albumName"]
+- ["PSo12UIAppearance", "artistName"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "mainImage"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", "trackName"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "albumName"]
+- ["PSo21UIAppearanceContainer", "artistName"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "mainImage"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", "trackName"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "albumName"]
+- ["PSo17UICoordinateSpace", "artistName"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "mainImage"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", "trackName"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "albumName"]
+- ["PSo13UIDynamicItem", "artistName"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "mainImage"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", "trackName"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "albumName"]
+- ["PSo18UIFocusEnvironment", "artistName"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "mainImage"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", "trackName"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo11UIFocusItem", "albumName"]
+- ["PSo11UIFocusItem", "artistName"]
+- ["PSo11UIFocusItem", "awakeFromNib"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "mainImage"]
+- ["PSo11UIFocusItem", "setSelected"]
+- ["PSo11UIFocusItem", "trackName"]
+- ["PSo11UIFocusItem", ""]
+- ["PSo27UIGestureRecognizerDelegate", "albumName"]
+- ["PSo27UIGestureRecognizerDelegate", "artistName"]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "mainImage"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", "trackName"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "albumName"]
+- ["CSo11UIResponder", "artistName"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "mainImage"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo11UIResponder", "trackName"]
+- ["PSo30UIResponderStandardEditActions", "albumName"]
+- ["PSo30UIResponderStandardEditActions", "artistName"]
+- ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "mainImage"]
+- ["PSo30UIResponderStandardEditActions", "setSelected"]
+- ["PSo30UIResponderStandardEditActions", "trackName"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "albumName"]
+- ["CSo15UITableViewCell", "artistName"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "deinit"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "mainImage"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "trackName"]
+- ["CSo15UITableViewCell", ""]
+- ["OSC20UITableViewCellStyle", "deinit"]
+- ["PSo18UITraitEnvironment", "albumName"]
+- ["PSo18UITraitEnvironment", "artistName"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "mainImage"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", "trackName"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "albumName"]
+- ["CSo6UIView", "artistName"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "mainImage"]
+- ["CSo6UIView", "setSelected"]
+- ["CSo6UIView", "trackName"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "albumName"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "artistName"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "mainImage"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "setSelected"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "trackName"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- ["Ps9_Hashable", "albumName"]
+- ["Ps9_Hashable", "artistName"]
+- ["Ps9_Hashable", "awakeFromNib"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "mainImage"]
+- ["Ps9_Hashable", "setSelected"]
+- ["Ps9_Hashable", "trackName"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "SQ"
+- "C14MusicDirectory17MainTableViewCell"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "OSC20UITableViewCellStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "c27639bcfbae030790a7a968b39d4957"
