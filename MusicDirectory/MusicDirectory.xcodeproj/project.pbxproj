@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		700160201E329CAE0005C5BB /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7001601F1E329CAE0005C5BB /* MainTableViewCell.swift */; };
 		701D6DF11E31755D0058EF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D6DF01E31755D0058EF81 /* AppDelegate.swift */; };
 		701D6DF31E31755D0058EF81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D6DF21E31755D0058EF81 /* ViewController.swift */; };
 		701D6DF61E31755D0058EF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701D6DF41E31755D0058EF81 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		701D6DFB1E31755D0058EF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701D6DF91E31755D0058EF81 /* LaunchScreen.storyboard */; };
 		701D6E061E31755D0058EF81 /* MusicDirectoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D6E051E31755D0058EF81 /* MusicDirectoryTests.swift */; };
 		701D6E111E31755D0058EF81 /* MusicDirectoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D6E101E31755D0058EF81 /* MusicDirectoryUITests.swift */; };
+		701D6E211E3176480058EF81 /* MusicObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D6E201E3176480058EF81 /* MusicObject.swift */; };
+		701D6E231E31765F0058EF81 /* MusicObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D6E221E31765F0058EF81 /* MusicObjectTests.swift */; };
+		701D6E241E31887C0058EF81 /* MusicObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D6E201E3176480058EF81 /* MusicObject.swift */; };
+		701D6E281E3191DB0058EF81 /* APIVersionOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D6E271E3191DB0058EF81 /* APIVersionOne.swift */; };
+		701D6E2A1E319D7B0058EF81 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D6E291E319D7B0058EF81 /* APIResponse.swift */; };
+		709AB8181E32A92E00716E82 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709AB8171E32A92E00716E82 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7001601F1E329CAE0005C5BB /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		701D6DED1E31755D0058EF81 /* MusicDirectory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicDirectory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		701D6DF01E31755D0058EF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		701D6DF21E31755D0058EF81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,11 @@
 		701D6E0C1E31755D0058EF81 /* MusicDirectoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicDirectoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		701D6E101E31755D0058EF81 /* MusicDirectoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDirectoryUITests.swift; sourceTree = "<group>"; };
 		701D6E121E31755D0058EF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701D6E201E3176480058EF81 /* MusicObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicObject.swift; sourceTree = "<group>"; };
+		701D6E221E31765F0058EF81 /* MusicObjectTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicObjectTests.swift; sourceTree = "<group>"; };
+		701D6E271E3191DB0058EF81 /* APIVersionOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIVersionOne.swift; sourceTree = "<group>"; };
+		701D6E291E319D7B0058EF81 /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		709AB8171E32A92E00716E82 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +110,10 @@
 		701D6DEF1E31755D0058EF81 /* MusicDirectory */ = {
 			isa = PBXGroup;
 			children = (
+				701D6E261E3191B40058EF81 /* API */,
+				701D6E1F1E31762A0058EF81 /* ObjectClasses */,
+				701D6E1E1E31761E0058EF81 /* ViewControllers */,
 				701D6DF01E31755D0058EF81 /* AppDelegate.swift */,
-				701D6DF21E31755D0058EF81 /* ViewController.swift */,
 				701D6DF41E31755D0058EF81 /* Main.storyboard */,
 				701D6DF71E31755D0058EF81 /* Assets.xcassets */,
 				701D6DF91E31755D0058EF81 /* LaunchScreen.storyboard */,
@@ -112,6 +127,7 @@
 			children = (
 				701D6E051E31755D0058EF81 /* MusicDirectoryTests.swift */,
 				701D6E071E31755D0058EF81 /* Info.plist */,
+				701D6E221E31765F0058EF81 /* MusicObjectTests.swift */,
 			);
 			path = MusicDirectoryTests;
 			sourceTree = "<group>";
@@ -123,6 +139,33 @@
 				701D6E121E31755D0058EF81 /* Info.plist */,
 			);
 			path = MusicDirectoryUITests;
+			sourceTree = "<group>";
+		};
+		701D6E1E1E31761E0058EF81 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				701D6DF21E31755D0058EF81 /* ViewController.swift */,
+				7001601F1E329CAE0005C5BB /* MainTableViewCell.swift */,
+				709AB8171E32A92E00716E82 /* DetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		701D6E1F1E31762A0058EF81 /* ObjectClasses */ = {
+			isa = PBXGroup;
+			children = (
+				701D6E201E3176480058EF81 /* MusicObject.swift */,
+			);
+			name = ObjectClasses;
+			sourceTree = "<group>";
+		};
+		701D6E261E3191B40058EF81 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				701D6E271E3191DB0058EF81 /* APIVersionOne.swift */,
+				701D6E291E319D7B0058EF81 /* APIResponse.swift */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701D6E281E3191DB0058EF81 /* APIVersionOne.swift in Sources */,
 				701D6DF31E31755D0058EF81 /* ViewController.swift in Sources */,
+				701D6E211E3176480058EF81 /* MusicObject.swift in Sources */,
+				700160201E329CAE0005C5BB /* MainTableViewCell.swift in Sources */,
+				701D6E2A1E319D7B0058EF81 /* APIResponse.swift in Sources */,
 				701D6DF11E31755D0058EF81 /* AppDelegate.swift in Sources */,
+				709AB8181E32A92E00716E82 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +319,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701D6E231E31765F0058EF81 /* MusicObjectTests.swift in Sources */,
+				701D6E241E31887C0058EF81 /* MusicObject.swift in Sources */,
 				701D6E061E31755D0058EF81 /* MusicDirectoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +562,7 @@
 				701D6E171E31755D0058EF81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		701D6E181E31755D0058EF81 /* Build configuration list for PBXNativeTarget "MusicDirectoryTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +571,7 @@
 				701D6E1A1E31755D0058EF81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		701D6E1B1E31755D0058EF81 /* Build configuration list for PBXNativeTarget "MusicDirectoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +580,7 @@
 				701D6E1D1E31755D0058EF81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
